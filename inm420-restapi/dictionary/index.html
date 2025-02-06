@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Worderful Dictionary</title>
+</head>
+<body>
+    <div class="main">
+    <!-- HEADER -->
+        <header>
+            <div class="logo">
+                <img src="./assets/logodict.png" alt="website Logo">
+            </div>
+            <nav>
+                <ul>
+                  <li><a href="#">Dictionary</a></li>
+                  <li><a href="#">Translate</a></li>
+                  <li><a href="#">Grammar</a></li>
+                  <li><a href="#">Thesaurus</a></li>
+                </ul>
+              </nav>
+              <button class="sign-in">Log in / Sign Up</button>
+        </header>
+    <!-- HERO PAGE -->
+        <h1>“Knowledge of languages is <br> the doorway to wisdom”</h1>
+        <!-- Search texbox -->
+        <div class="search-section">
+            <input type="text" id="wordInput" placeholder="Enter a word">
+            <button id="searchButton">Search</button>
+        </div>
+        <!-- Result section -->
+        <div class="result-section">
+            <div class="result">
+                <h2 id="wordTitle"></h2>
+                <p id="phonetics"></p>
+                <div id="definitionContainer"></div> <!-- Container for definitions -->
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-left">
+            <div class="follow-us">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                <a href="#" class="icon facebook">f</a>
+                <a href="#" class="icon linkedin">in</a>
+                <a href="#" class="icon twitter">#</a>
+                </div>
+            </div>
+
+            <div class="information">
+                <h3>Information</h3>
+                <ul>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Dictionary API</a></li>
+                <li><a href="#">License Data</a></li>
+                <li><a href="#">New Words</a></li>
+                <li><a href="#">Cookies Settings</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Search Widgets</a></li>
+                <li><a href="#">Accessibility</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <div class="keep-in-touch">
+                <h3>Have a feedback? Talk to us!</h3>
+                <form>
+                <input type="text" placeholder="Your name">
+                <input type="email" placeholder="E-mail">
+                <textarea placeholder="Leave your message"></textarea>
+                <button type="submit">Send</button>
+                </form>
+            </div>
+            <div class="endlogo">
+                <img src="./assets/logodict2.png" alt="website Logo">
+                <p>© Worderful Dictionary 2025</p>
+
+            </div>
+        </div>
+    
+  </footer>
+
+    
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
